@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 function Home({ navigation }) {
@@ -18,11 +17,11 @@ function MyStack() {
     <Stack.Navigator 
         screenOptions = {{
             headerTintColor: 'white',
-            headerStyle: { backgroundColor: 'tomato' },
+            headerStyle: { backgroundColor: 'grey' },
             headerTitleAlign: "center"
         }}>
       <Stack.Screen 
-        name="Página Principal" 
+        name="Home" 
         component={Home} />
     </Stack.Navigator>
   );

@@ -1,11 +1,8 @@
 import React from 'react';
-import { Button, View } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from "./src/pages/HomeScreen"
 import NotificationsScreen from "./src/pages/NotificationScreen"
-
-
 
 
 const Drawer = createDrawerNavigator();
